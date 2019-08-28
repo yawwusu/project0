@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marriage Form</title>
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!--  -->
+    <style>
+        button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: lightblue;
+        }
+
+        button:hover {
+            background-color: lightgray;
+        }
+      </style>
+<!--  -->
+
+    </head>
+    <body>
+      <h1> Marriage Form</h1>
+        Please answer all questions truthfully.
+
+      <form>
+      <div>
+      <label>  Name:</label> <input name = "name:" type = "text" placeholder= "eg Akosua Mansah">
+      </div>
+      <div>
+        <label>Date of Birth</label> (don't worry nobody will see): <input name = "dob:" type = "text" placeholder= "eg 31/02/1990">
+      </div>
+      <div>
+        <label>Hometown:</label> <input name = "Hometown:" type = "text" placeholder= "eg Akomadan">
+      </div>
+      <div>
+        <label>Marital Status:</label>
+        <input name = "Marital Status:" type = "radio"> Married
+        <input name = "Marital Status:" type = "radio"> Single
+        <input name = "Marital Status:" type = "radio"> Divorced
+        <input name = "Marital Status:" type = "radio"> In Relationship
+        <input name = "Marital Status:" type = "radio"> In serious relationship
+      </div>
+      <div>
+        <label>Educational Level </label><input name = "Education:" list = "levels">
+        <datalist id = "levels">
+          <option value = "None">
+          <option value = "Primary">
+          <option value = "JHS">
+          <option value = "SHS">
+          <option value = "Undergraduate">
+          <option value = "Masters">
+          <option value = "PhD">
+        </datalist>
+      </div>
+
+      <div>
+        <label>Insert picture<label/>
+      </div>
+      <div>
+        <audio>
+      </div>
+
+      <button> Submit </button>
+
+
+      </form>
+    </body>
+</html>
