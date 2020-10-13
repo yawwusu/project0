@@ -1,3 +1,3 @@
-# Project 0
+# Copyright Yaw Owusu-Agyemang
 
-Web Programming with Python and JavaScript
+Draft web homepage for Mathmods Alumni Network
